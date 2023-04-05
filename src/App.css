@@ -1,0 +1,141 @@
+
+.inner_grid{
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+  padding: 10px;
+  width: 80%;
+  margin-top: 2%;
+}
+.Movie_Outer{
+  text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+img{
+  width: 300px;
+  height: 350px;
+}
+.Head{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+}
+.inner_Head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.inner_btn{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+ h2{
+  color: darkgray;
+} 
+.pagination{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-right: 7%;
+}
+.Single{
+  margin-top: 10%;
+  text-align: center;
+}
+
+@media screen and (min-width:50px) and (max-width:430px)
+{
+
+  .inner_grid{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  grid-template-rows: auto;
+  padding: 10px;
+  margin-top: 2%;
+  }
+  .pagination{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    display: flex;
+  }
+  .Head{
+    margin: auto;
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+  h2{
+    color: darkgray;
+  }
+}
+
+@media screen and (min-width:431px) and (max-width:830px)
+{
+
+  .inner_grid{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: auto;
+  padding: 10px;
+  margin-top: 2%;
+  }
+  .pagination{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    display: flex;
+  }
+  .Head{
+    margin: auto;
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+  h2{
+    color: darkgray;
+  }
+}
+
+@media screen and (min-width:831px) and (max-width:1280px)
+{
+
+  .inner_grid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: auto;
+  padding: 10px;
+  margin-top: 2%;
+  }
+  .pagination{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    display: flex;
+  }
+  .Head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+  }
+  h2{
+    color: darkgray;
+    font-size: xx-large;
+  }
+}
